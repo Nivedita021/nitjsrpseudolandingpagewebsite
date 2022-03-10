@@ -1,0 +1,239 @@
+
+body{
+    font-family: 'Merriweather', serif;
+    position: relative;
+}
+
+#bgv{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+#jumbo{
+  background-color:transparent;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+#jumbo h1{
+  margin-bottom: 60px;
+}
+#jumbo h2{
+  margin-bottom: 70px;
+}
+#jumbo .btn{
+  background-color: rgb(14, 11, 11);
+  color:white;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  padding:10px 20px;
+  border-radius: 8px;
+}
+#jumbo .btn:hover{
+  background-color: rgb(14, 11, 11, 0.4);
+  
+}
+#jumbo h1,h2{
+  font-weight: bold;
+}
+#myCarousel{
+  width:60%;
+  margin:0 auto;
+ 
+  
+}
+#Details{
+  padding-top: 200px;
+}
+.carousel-inner .item img{
+  height:400px;
+  width:600px;
+  margin:0 auto;
+}
+.carousel-caption{
+  position:relative;
+  left:auto;
+  right:auto;
+  height:200px;
+}
+.col-md-4
+{ font-family: 'Merriweather', serif;
+  color:white;
+  text-align: center;
+}
+.col-md-4 img{
+  height:150px;
+}
+#about{
+  padding-top:100px;
+}
+#about .container{
+  max-width: 1000px;
+}
+#about p{
+  padding-top: 25px;
+margin-bottom: 40px;}
+#about h2{
+  font-weight: bold;}
+  .footer{
+    background-color: rgba(14, 11, 11, 0);
+    color:white;
+    padding:10px 0;
+    margin-top: 150px;
+    font-size: 15px;
+  }
+.navbar-custom {
+    font-size:18px;
+    letter-spacing: 0.9px;
+    background-color: #000000;
+    border-color: #000000;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#1a1a1a), to(#000000));
+    background-image: -webkit-linear-gradient(top, #1a1a1a, 0%, #000000, 100%);
+    background-image: -moz-linear-gradient(top, #1a1a1a 0%, #000000 100%);
+    background-image: linear-gradient(to bottom, #1a1a1a 0%, #000000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1a1a1a', endColorstr='#ff000000', GradientType=0);
+  }
+  .navbar-custom .navbar-brand {
+    color: #fbfcc4;
+  }
+  .navbar-custom .navbar-brand:hover,
+  .navbar-custom .navbar-brand:focus {
+    color: #f8fa93;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-text {
+    color: #fbfcc4;
+  }
+  .navbar-custom .navbar-nav > li:last-child > a {
+    border-right: 1px solid #000000;
+  }
+  .navbar-custom .navbar-nav > li > a {
+    color: #fbfcc4;
+    border-left: 1px solid #000000;
+  }
+  .navbar-custom .navbar-nav > li > a:hover,
+  .navbar-custom .navbar-nav > li > a:focus {
+    color: #f5f5f5;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav > .active > a,
+  .navbar-custom .navbar-nav > .active > a:hover,
+  .navbar-custom .navbar-nav > .active > a:focus {
+    color: #f5f5f5;
+    background-color: #000000;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#000000), to(#1a1a1a));
+    background-image: -webkit-linear-gradient(top, #000000, 0%, #1a1a1a, 100%);
+    background-image: -moz-linear-gradient(top, #000000 0%, #1a1a1a 100%);
+    background-image: linear-gradient(to bottom, #000000 0%, #1a1a1a 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff1a1a1a', GradientType=0);
+  }
+  .navbar-custom .navbar-nav > .disabled > a,
+  .navbar-custom .navbar-nav > .disabled > a:hover,
+  .navbar-custom .navbar-nav > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-toggle {
+    border-color: #dddddd;
+  }
+  .navbar-custom .navbar-toggle:hover,
+  .navbar-custom .navbar-toggle:focus {
+    background-color: #dddddd;
+  }
+  .navbar-custom .navbar-toggle .icon-bar {
+    background-color: #cccccc;
+  }
+  .navbar-custom .navbar-collapse,
+  .navbar-custom .navbar-form {
+    border-color: #000000;
+  }
+  .navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+  .navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #f5f5f5;
+    border-bottom-color: #f5f5f5;
+  }
+  .navbar-custom .navbar-nav > .open > a,
+  .navbar-custom .navbar-nav > .open > a:hover,
+  .navbar-custom .navbar-nav > .open > a:focus {
+    background-color: #000000;
+    color: #f5f5f5;
+  }
+  .navbar-custom .navbar-nav > .open > a .caret,
+  .navbar-custom .navbar-nav > .open > a:hover .caret,
+  .navbar-custom .navbar-nav > .open > a:focus .caret {
+    border-top-color: #f5f5f5;
+    border-bottom-color: #f5f5f5;
+  }
+  .navbar-custom .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fbfcc4;
+    border-bottom-color: #fbfcc4;
+  }
+  @media (max-width: 767) {
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+      color: #fbfcc4;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #f5f5f5;
+      background-color: transparent;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #f5f5f5;
+      background-color: #000000;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+      color: #cccccc;
+      background-color: transparent;
+    }
+  }
+  .navbar-custom .navbar-link {
+    color: #fbfcc4;
+  }
+  .navbar-custom .navbar-link:hover {
+    color: #f5f5f5;
+  }
+  @media (max-width:768px){
+    .navbar-brand{
+        font-size:7px;
+    }
+    .navbar-custom{
+        font-size: 12px;
+    }
+    .carousel-inner .item img{
+      height:300px;
+     
+    }
+
+    .item h2{
+      font-size: large;
+    }
+
+}
+@media (max-device-width:768px){
+ body{
+   background: url(blackback.jpg);
+   background-size: cover;
+ }
+
+}
+@media (max-width:400px){
+
+  
+  .carousel-inner .item img{
+    height:200px;
+   
+
+  }
+
+  .item h2{
+    font-size: smaller;
+  }
+
+}
